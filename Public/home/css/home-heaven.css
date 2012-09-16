@@ -1,0 +1,100 @@
+#heavenMid{
+    width:584px;
+    /*height:400px;*/
+    float:left; 
+    /*border:1px solid red;*/
+    margin-left:20px;
+}
+
+#bigBirdDiv{
+    width:100%;
+    background-color:#fff;
+}
+
+#bigBirdBox{
+    margin:0px auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:564px;
+    height:292px;
+    overflow:hidden;
+    position:relative; 
+}
+
+#birdCon{
+    position:absolute; 
+    left:0px;
+    padding:10px;
+    width:100%;
+    color:#fff;
+    font-size:15px;
+    bottom:10px;
+    bottom:15px\9;
+    background-color:rgba(0,0,0, 0.5) !important;
+    background-color:#000;
+    filter:alpha(opacity=50);
+}
+
+#birdDes{
+    width:100%;
+    background-color:#fff;
+    margin-top:20px;
+    -moz-border-radius-bottomright:10px;
+    -moz-border-radius-topleft:10px;
+    -webkit-border-bottom-right-radius:10px;
+    -webkit-border-top-left-radius:10px;
+
+    -moz-border-radius-bottomleft:10px;
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    -webkit-border-top-left-radius:10px;
+}
+
+#birdDes p{
+    padding:10px;
+    font-size:18px;
+    color:#000;
+}
+
+#birdDes div{
+    padding:10px;
+    padding-top:0px;
+    font-size:15px;
+}
+/**************************************************/
+#heavenRight{
+    width:170px;
+    float:right; 
+    margin-right:25px;
+    /*border:1px solid green;*/
+    margin-bottom:30px;
+}
+
+#birdList{
+    width:100%;
+    height:384px;
+    /*border:1px solid red;*/
+    position:relative; 
+    overflow:hidden;
+}
+
+#birdListDiv{
+    width:100%;
+    height:2000px;
+    position:absolute; 
+    background-color:#fff;
+}
+
+.birdListBox{
+    margin:0 auto;
+    width:160px;
+    height:100px;
+    margin-top:12px;
+    padding-bottom:12px;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+#upBird, #downBird{
+    cursor: pointer;
+}

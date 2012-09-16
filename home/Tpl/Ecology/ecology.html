@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/home/css/global.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/bannerAndNav.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-intro.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-ecology.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-footer.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery-1.7.2.min.js"></script>
+<link href="__PUBLIC__/home/css/coin-slider-styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/home/js/coin-slider.min.js"></script>
+<title>天津七里海旅游网站</title>
+
+</head>
+
+<body>
+	<div id="container">
+		<!--the banner goes here-->
+		<include file="HTML:banner" />
+		<div class="clear"> </div>
+		<!--the banner ends here-->
+		<div id="content">
+			<div id="conLeft">
+				<include file="HTML:ecoNav" />
+			<!--
+				<div id="childrenNav">
+					<ul>
+						<li><a href="#">七里海简介</a></li>
+						<li><a href="#">美丽传说</a></li>
+						<li><a href="#">鸟的天堂</a></li>
+						<li><a href="#">自然天成</a></li>
+						<li><a href="#">人杰地灵</a></li>
+					</ul>
+				</div>
+			-->
+			</div>
+			<!--the conRight goes here-->
+			<div id="conRight">
+				<div id="slide">
+					<div id="slideBox">
+					
+						<div id="coin-slider">
+							<a href="#" title="">
+								<img src="__PUBLIC__/home/images/slide1.png" width="693px" height="384px" alt="" />
+								<span>ttttt<br>ttttt</span>
+							</a>
+							<a href="#" title="">
+								<img src="__PUBLIC__/home/images/slide2.png" alt="" />
+								<span>yyyyyy</span>
+							</a>
+							<a href="#" title="">
+								<img src="__PUBLIC__/home/images/slide1.png" alt="" />
+								<span>ooooo<br>dfsffsd</span>
+							</a>
+						</div>
+				
+					</div>
+				</div>
+				<div id="slideBelow">
+					<div id="below1">
+							<table>
+								<tr>
+									<td><div id="belowImg1"><a href="#"><img src="__PUBLIC__/home/images/eco2.png" width="200px" height="160px" alt="" /></a></div></td>
+									<td style="vertical-align:top;padding-top:15px;padding-left:3px;padding-right:5px;overflow:hidden;">
+										<div >
+												<p id="belowImg1Title">ff sfsd sfsdfsd  sdfsdf </p>
+												<p id="belowImg1Con">dfdf sdfsdf  f ssd sfd fdf dfd  fsdf  sfdsf dgfffsdf  dfd  dfsd </p>
+										</div>
+									</td>
+								</tr>
+							</table>
+					</div>
+					<div id="below2">
+						<div id="below2Img"><a href="#"><img src="__PUBLIC__/home/images/eco3.png" width="200" height="160" alt="" /></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--the footer goes here-->
+		<div class="clear"> </div>
+		<include file="HTML:footer" />
+		<!--the footer ends here-->
+	</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	//alert("pp");
+	$('#coin-slider').coinslider({width: 693,height: 354, hoverPause: true});
+});
+</script>
+</body>
+</html>

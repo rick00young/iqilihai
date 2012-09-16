@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/home/css/global.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/bannerAndNav.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-intro.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-footer.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/cal.js"></script>
+<title>天津七里海旅游网站</title>
+</head>
+
+<body>
+	<div id="container">
+		<!--the banner goes here-->
+		<include file="HTML:banner" />
+		<!--the banner ends here-->
+		<div id="content">
+			<div id="conLeft">
+				<include file="HTML:introNav" />
+			<!--
+				<div id="childrenNav">
+					<ul>
+						<li><a href="index">七里海简介</a></li>
+						<li><a href="legend">美丽传说</a></li>
+						<li><a href="heaven">鸟的天堂</a></li>
+						<li><a href="nature">自然天成</a></li>
+						<li><a href="people">人杰地灵</a></li>
+					</ul>
+				</div>
+			-->
+			</div>
+			<!--the conMid goes here-->
+			<div id="conMid">
+				<div id="imgBg">
+					<div id="imgBox">
+						<img src="__PUBLIC__/home/images/intro/legend.jpg" alt="" />						
+					</div>
+					<div id="imgAlt">七里还有一个非常美丽的传说</div>
+				</div>
+				<div id="introDiv">
+					<p>美丽传说</p>
+					<div id="introCon">很久很久以前，七里还有个一个水怪，每到夜幕降临，便浮出水面，像小山一样游来游去，常常兴风作浪，还得百姓不得安宁。后来经仙人指点，人们挖掘一条大河将海水排入大海，困死水怪。水怪因此暴戾起来，危难之际，一直金光闪闪的麒麟从天而将，经过一番搏斗，最后把水怪杀死。人们为了感恩麒麟的恩德，就将这片水域称作麒麟海，后因为音相似就变成了七里海。</div>
+				</div>
+			</div>
+			<!--the conRight goes here-->
+			<div id="conRight">
+				<div id="dateDiv">
+					<p id="year">2012年5月</p>
+					<div id="week">星期四</div>
+					<div id="date">24</div>
+				</div>
+				<div id="corridor">
+					<div class="sImgBox">
+						<a href="__APP__/Ecology/wetLand"><img src="__PUBLIC__/home/images/corridor.png" alt="" /></a>
+					</div>
+					<p>湿地长廊</p>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!--the footer goes here-->
+		<include file="HTML:footer" />
+		<!--the footer ends here-->
+	</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	//alert('pp');
+	var time = new Date();
+	//alert(time);
+	var year = time.getFullYear();
+	var month = time.getMonth() + 1;
+	var week = time.getDay();
+	var day = time.getDate();
+	//alert(week);
+	
+	switch(week) {
+		case 1:
+			week =  '一';
+			break;
+		case 2:
+			week = '二';
+			break;
+		case 3:
+			week = '三';
+			break;
+		case 4:
+			week = '四';
+			break;
+		case 5:
+			week =  '五';
+			break;
+		case 6:
+			week =  '六';
+			break;
+		case 0:
+			week = '日';
+			break;
+	}
+	
+	//alert(day);
+	//alert(day);
+	//alert(month);
+	//alert(year);
+	$('#year').text(year + '年' + month + '月');
+	$('#week').text('星期' + week);
+	$('#date').text(day);
+});
+</script>
+</body>
+</html>

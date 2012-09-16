@@ -1,0 +1,37 @@
+*{
+padding:0;
+margin:0;
+}
+ul li{
+list-style:none;}
+a,img{
+text-decoration:none;
+border:none;}
+.main{
+background:url(../images/bg.jpg) no-repeat;
+width:1200px;
+height:600px;
+margin:0px auto;
+/*border:solid 1px red;*/}
+.login{
+width:344px;
+height:152px;
+float:left;
+display:inline;
+margin-left:200px;
+margin-top:290px;
+/*border:solid 1px #000066;*/}
+.login form table tr td{
+font-family:"¡• È", Courier, monospace, Verdana;
+color:#FFFFFF;
+font-size:15px;
+font-weight:bold;
+}
+.login form table tr td a{
+color:#FFFFFF;
+font-size:15px;
+font-weight:bold;
+}
+.login form table tr td a:hover{
+color:#ccc;
+text-decoration:underline;}

@@ -1,0 +1,114 @@
+#container{ 
+    width:1024px;
+    /*height:800px;*/
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../images/bodybg.png);
+     background-repeat:no-repeat;
+     font-family:"微软雅黑";
+/**    
+    background-position:top center;
+    background-attachment:fixed;
+    position:relative; 
+   **/
+}
+
+ #indexNav{
+    width:1024px;
+    height:44px;
+    background:url(../images/barnnerbg.png);
+    color:#fff;
+    /**position:fixed; **/
+}
+#indexNav p{
+    padding-left:20px;
+}
+#indexNav p a{
+    color:#fff;
+    line-height:44px;
+    font-size:14px;
+    font-family:"微软雅黑";
+}
+#indexNav p a:hover{
+    color:#ccc;
+}
+/*********************************************************/
+#navBody{
+    width:1024px;
+    margin-top:73px;
+    overflow:hidden;
+}
+#navLeft{
+    width:446px;
+    /*border:1px solid red;*/
+    float:left; 
+    margin-left:138px;
+}
+
+.navBox{
+    width:98px;
+    height:73px;
+    float:left; 
+    margin-top:15px;
+    margin-left:13px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+#nav1{
+   background:url(../images/nav1.png) no-repeat;
+}
+#nav2{
+   background:url(../images/nav2.png) no-repeat;
+}
+#nav3{
+  background:url(../images/nav3.png) no-repeat;
+}
+#nav4{
+   background:url(../images/nav4.png) no-repeat;
+}
+#nav5{
+   background:url(../images/nav5.png) no-repeat;
+}
+#nav6{
+  background:url(../images/nav6.png) no-repeat;
+}
+
+.navText{
+    color:#fff;
+    height:22px;
+    text-align:right;
+    margin-left:2px;
+    margin-right:3px;
+    margin-top:46px;
+    font-size:15px;
+}
+.navText_h{
+    background-color:#333;
+}
+/********************/
+#navRight{
+    width:240px;
+    margin-top:15px;
+    /*border:1px solid green;*/
+    margin-left:20px;
+    float:left; 
+}
+
+#search{
+    background:url(../images/searchInputBg.png) no-repeat;
+    width:235px;
+    height:31px;
+}
+#searchInput{
+    margin-left:43px;
+    margin-top:5px;
+    margin-top:3px\9;
+    height:17px;
+    width:163px;
+    width:160px\9;
+}
+#map{
+    width:235px;
+    height:400px;
+    margin-top:10px;
+}

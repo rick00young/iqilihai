@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>introList</title>
+<link href="__ROOT__/Public/admin/css/global.css" rel="stylesheet" type="text/css" />
+<link href="__ROOT__/Public/admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="__ROOT__/Public/admin/css/introList.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__ROOT__/Public/admin/js/jquery-1.4.1.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/admin/js/jquery-tableUI.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/admin/js/tableUI.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<div id="header"></div>
+    <div id="main">
+     <!--left_frame begin-->
+		<include file="Html:left" />
+     <!--left_frame end--> 
+
+	 <!--right_frame begin--> 
+			<!--id right goes here-->
+	 <div id="right">
+        	<h2 class="rightType">欢迎来到天津七里海旅游管理平台</h2>
+            <div style="width:100%">
+            	<form action="" method="post">                
+            	<table width="100%" border="0" style="text-align:center;" class="tableUI dataTable">
+                	<caption><h2>{$actionTitle}</h2></caption>
+					<tr>
+							<td>介绍ID</td>
+							<td>介绍标题</td>
+							<td>创建时间</td>
+							<td>编辑时间</td>
+							<td>编辑人</td>
+							<td>当前状态</td>
+							<td>操作</td>
+							<td>修改</td>
+							<td>删除</td>
+							<volist name="list" id="vo">
+								<tr>
+									<td style="font-size:13px;">{$vo['id']}</td>
+									<td style="font-size:13px;">{$vo['title']}</td>
+									<td style="font-size:13px;">{$vo['create_time']|date="y-m-d",###}</td>
+									<td style="font-size:13px;">{$vo['edit_time']|date="y-m-d",###}</td>
+									<td style="font-size:13px;">{$vo['edit_user']}</td>
+									<td style="font-size:13px;">
+										<if condition="$vo['status'] eq 1">
+											<span style="color:green;">已经发布</span>
+										<else />
+											<span style="color:red;">已经停用</span>
+										</if>									
+									</td>
+									<td>
+										<if condition="$vo['status'] eq 0">
+											<a href="__APP__/Introduction/introOperate/status/{$vo['status']}/id/{$vo['id']}">发布</a>
+										<else />
+											<a href="__APP__/Introduction/introOperate/status/{$vo['status']}/id/{$vo['id']}">停用</a>
+										</if>
+									</td>
+									<td><a href="__APP__/Introduction/introModify/id/{$vo['id']}">修改</a></td>
+									<td><a href="__APP__/Introduction/introDelete/id/{$vo['id']}">删除</a></td>
+								</tr>
+							</volist>
+					</tr>
+                </table>
+                </form>
+				<div class="page">
+					<p>{$pageinfo}</p>
+				</div>
+            </div>
+      </div>
+        <p class="clear"></p>
+    </div>
+			<!--id right ends here-->
+	<!--footer begin-->
+		<include file="html:footer" />
+	<!--footer end-->
+	
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

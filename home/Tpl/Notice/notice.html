@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/home/css/global.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/bannerAndNav.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-intro.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-notice.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-footer.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/notice.js"></script>
+<title>天津七里海旅游网站</title>
+</head>
+
+<body>
+	<div id="container">
+		<!--the banner goes here-->
+		<include file="HTML:banner" />
+		<div class="clear"> </div>
+		<!--the banner ends here-->
+		<div id="content">
+			<!--the introLeft goes here-->
+			<div id="introLeft">
+				<div id="newsYiList" class="listShow">
+						<p class="noticeTitle">七里海一期</p>
+						<div><center><img src="__PUBLIC__/home/images/separateLine.png" alt="" /></center></div>
+						<div class="introPic"><img src="__PUBLIC__/home/images/introPic1.png" alt="" /></div>
+						<div class="introList">
+<!--
+							<p><span class="noticeTime">2012-01-12</span> <span class="newsLink" des="ttttttttt" type="1" author="o">七里海湿地走廊即将峻工</span></p>
+							<p><span class="noticeTime">2012-01-12</span> <span class="newsLink" des="ttttttttt" type="1" author="o">七里海湿地走廊即将峻工</span></p>
+							<p><span class="noticeTime">2012-01-12</span> <span class="newsLink" des="ttttttttt" type="1" author="o">七里海湿地走廊即将峻工</span></p>
+-->
+							<volist name="one" id="vo">
+								<p><span class="noticeTime">20{$vo['create_time']|date="y-m-d",###}</span> <span class="newsLink" des="{$vo['content']}" type="1" author="系统发布">{$vo['title']}</span></p>
+							</volist>
+						</div>
+
+				</div>
+					<div class="newsCon" id="newsEr" style="display:none;">
+						<p><span class="closeNews">x</span></p>
+						<p class="newsTitle">主题多种多样</p>
+						<p class="newsInfo">作者:<span class="author"></span>&nbsp;&nbsp;&nbsp;发表时间:<span class="publishTime"></span></p>
+						<div class="newsDes"> 主题多种多样主题多种多样主题多种多样主题多种多样主题多种多样主题多种多样</div>
+					</div>
+			</div>
+			<!--the introRight goes here-->
+			<div id="introRight">
+					<div id="newsErList" class="listShow">
+						<p class="noticeTitle">七里海二期</p>
+						<div><center><img src="__PUBLIC__/home/images/separateLine.png" alt="" /></center></div>
+						<div class="introPic"><img src="__PUBLIC__/home/images/introPic2.png" alt="" /></div>
+						<div class="introList">
+<!--
+							<p><span class="noticeTime">2012-01-12</span> <span class="newsLink" des="ttttttttt" type="2">七里海湿地走廊即将峻工</span></p>
+							<p><span class="noticeTime">2012-01-12</span> <span class="newsLink" des="ttttttttt" type="2">七里海湿地走廊即将峻工</span></p>
+							<p><span class="noticeTime">2012-01-12</span> <span class="newsLink" des="ttttttttt" type="2">七里海湿地走廊即将峻工</span></p>
+-->
+							<volist name="two" id="vo">
+								<p><span class="noticeTime">20{$vo['create_time']|date="y-m-d",###}</span> <span class="newsLink" des="{$vo['content']}" type="2" author="系统发布">{$vo['title']}</span></p>
+							</volist>
+						</div>
+					</div>
+					<div class="newsCon" id="newsYi" style="display:none;">
+						<p><span class="closeNews">x</span></p>
+						<p class="newsTitle">主题多种多样</p>
+						<p class="newsInfo">作者:<span class="author"></span>&nbsp;&nbsp;&nbsp;发表时间:<span class="publishTime"></span></p>
+						<div class="newsDes"> 主题多种多样主题多种多样主题多种多样主题多种多样主题多种多样主题多种多样</div>
+					</div>
+			</div>
+		</div>
+		<!--the footer goes here-->
+		<div class="clear"> </div>
+		<include file="HTML:footer" />
+		<!--the footer ends here-->
+	</div>
+</body>
+</html>

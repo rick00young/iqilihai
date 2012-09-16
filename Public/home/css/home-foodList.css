@@ -1,0 +1,147 @@
+#conRight_foodDiv{
+    width:760px;
+    /*height:500px;*/
+    background-color:#fff;
+    float:right; 
+    margin-right:25px;
+    border:1px solid green;
+}
+/*****************left banner*********************************/
+#conLeft_food{
+    float:left;
+    border:1px solid green;
+    width:216px;
+}
+
+#leftBanner{
+    width:190px;
+    float:right;
+    border:1px solid #ccc;
+   height:450px;
+    background-color:#fff;
+    overflow:hidden;
+}
+
+.leftBannerTitle{
+    background:url(../images/leftBanner.png);
+    height:28px;
+}
+
+.leftBannerA{
+    float:left;
+    width:50px;
+    height:26px;
+    border:1px solid #ccc;
+    font-size:15px;
+    line-height:28px;
+    text-align:center;
+    color:#000;
+}
+
+.leftBannerB{
+    border-bottom:1px solid #fff;
+    background:url(../images/leftBanner1.png);
+}
+.leftBImg{
+    margin-bottom:15px;
+}
+.leftBImgBox{
+    width:133px;
+    height:89px;
+    background-color:#eee;
+    margin:0 auto;
+    margin-top:10px;
+    border:5px solid #ccc;
+    overflow:hidden;
+}
+
+.leftBCon{
+    text-align:center;
+    font-size:15px;
+    padding-top:5px;
+}
+/**************************************************/
+.foodListDiv{
+    width:218px;
+    height:246px;
+    border:1px solid #ccc;
+    background-color:#eeeeee;
+    float:left; 
+    margin-top:10px;
+    margin-left:16px;
+    margin-right:16px;
+    margin-bottom:10px;
+}
+
+.onFood{
+    border:1px solid #ccc;
+    background-color:#dbd8d8;
+}
+
+.foodListTitle{
+    background:url(../images/listTitleBg.png);
+    text-align:center;
+    height:34px;
+    line-height:34px;
+    font-size:20px;
+    border:1px solid #ccc;
+}
+
+.listImg{
+    width:194px;
+    height:129px;
+    margin:0 auto;
+    margin-top:10px;
+    overflow:hidden;
+    position:relative; 
+}
+
+.listImgPro{
+    width:100%;
+    position:absolute; 
+    left:0px;
+    bottom:0px;
+    background-color:#000;
+    color:#fff;
+    font-size:12px;
+    padding:3px;
+    text-indent:5px;
+    overflow:hidden;
+}
+
+.listImgCon{
+    width:194px;
+    font-size:14px;
+    color:#000;
+    margin:0 auto;
+    margin-top:10px;
+}
+.listImgDes{
+   /* border:1px solid red;*/
+    height:40px;
+    overflow:hidden;
+}
+.listImgMore{
+    float:right; 
+    color:#000;
+}
+
+.listImgMore:hover{
+    color:#90d67d;
+    text-decoration:underline;
+}
+
+.page{
+    color:#000;
+    text-align:center;
+    font-size:15px;
+    padding:5px;
+    background-color:#fff;
+}
+.page a{
+    color:#000;
+}
+.page a:hover{
+    text-decoration:underline;
+    color:#90d67d;
+}

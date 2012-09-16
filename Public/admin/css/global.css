@@ -1,0 +1,27 @@
+body,*{
+padding:0;
+margin:0;
+}
+ul li{
+list-style:none;}
+a,img{
+text-decoration:none;
+border:none;
+padding:0;
+margin:0;}
+body{
+font-family:"宋体","Times New Roman", Times, serif;
+}
+.clear{
+clear:both;}
+.hidden{
+display:none;}
+.table{
+padding:10px;
+padding-left:50px;
+font-size:20px;
+}
+.table ul li{
+padding:10px;
+}
+/*----------------------------------------------*/

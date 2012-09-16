@@ -1,0 +1,202 @@
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.001323s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run CheckTemplate Behavior [ RunTime:0.001101s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.002696s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run LocationTemplate Behavior [ RunTime:0.002974s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003104s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run ParseTemplate Behavior [ RunTime:0.042907s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.043070s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run ContentReplace Behavior [ RunTime:0.000906s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run TokenBuild Behavior [ RunTime:0.001036s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000601s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000994s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.003855s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.003718s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.003843s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:00:32+08:00 ] /admin.php/Index/verify/ | DEBUG: Run CheckRoute Behavior [ RunTime:0.001084s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001231s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:00:32+08:00 ] /admin.php/Index/verify/ | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000783s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php/Index/verify/ | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000611s ]
+[ 2012-06-04T14:00:32+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001531s ]
+[ 2012-06-04T14:00:44+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:00:44+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run CheckRoute Behavior [ RunTime:0.001800s ]
+[ 2012-06-04T14:00:44+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001947s ]
+[ 2012-06-04T14:00:44+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:00:44+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.001054s ]
+[ 2012-06-04T14:00:44+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000761s ]
+[ 2012-06-04T14:00:44+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001947s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | SQL: SHOW COLUMNS FROM `qilihai_admin` [ RunTime:0.029317s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | SQL: SELECT * FROM `qilihai_admin` WHERE ( `username` = 'gg' ) AND ( `password` = '73c18c59a39b18382081ec00bb456d43' ) LIMIT 1   [ RunTime:0.001245s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | SQL: UPDATE `qilihai_admin` SET `last_login_time`=1338789645 WHERE ( `username` = 'gg' ) AND ( `password` = '73c18c59a39b18382081ec00bb456d43' ) [ RunTime:0.000484s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run LocationTemplate Behavior [ RunTime:0.002391s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.002535s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | NOTIC: [8] Undefined variable: title fdb8b4c06fba2ac11ecc127c153c19ce.php 第 88 行.
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ParseTemplate Behavior [ RunTime:0.037790s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.037900s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ContentReplace Behavior [ RunTime:0.000834s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run TokenBuild Behavior [ RunTime:0.000619s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000511s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000796s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002994s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.003170s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.003281s ]
+[ 2012-06-04T14:00:45+08:00 ] /admin.php/js/jquery-1.4.1.js | ERR: (ThinkException) 无法加载模块js
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run CheckRoute Behavior [ RunTime:0.002498s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002710s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.001390s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.001112s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.002706s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | SQL: SHOW COLUMNS FROM `qilihai_notice` [ RunTime:0.005745s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | SQL: SELECT COUNT(*) AS tp_count FROM `qilihai_notice` LIMIT 1   [ RunTime:0.000513s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | SQL: SELECT * FROM `qilihai_notice` ORDER BY id LIMIT 0,20   [ RunTime:0.000921s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003114s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003257s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run ParseTemplate Behavior [ RunTime:0.006189s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.006323s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run ContentReplace Behavior [ RunTime:0.001174s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run TokenBuild Behavior [ RunTime:0.001188s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000597s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run ShowRuntime Behavior [ RunTime:0.001078s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.004387s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.003420s ]
+[ 2012-06-04T14:00:49+08:00 ] /admin.php/Notice/noticeList | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.003577s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckRoute Behavior [ RunTime:0.001490s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001627s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000845s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000751s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001730s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | SQL: SHOW COLUMNS FROM `qilihai_introduction` [ RunTime:0.049857s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | SQL: SELECT COUNT(*) AS tp_count FROM `qilihai_introduction` LIMIT 1   [ RunTime:0.000850s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | SQL: SELECT * FROM `qilihai_introduction` ORDER BY id LIMIT 0,20   [ RunTime:0.002284s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run LocationTemplate Behavior [ RunTime:0.022281s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.022430s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ParseTemplate Behavior [ RunTime:0.019294s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.019442s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ContentReplace Behavior [ RunTime:0.001085s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run TokenBuild Behavior [ RunTime:0.001289s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000779s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowRuntime Behavior [ RunTime:0.001068s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.004565s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.003178s ]
+[ 2012-06-04T14:00:54+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.003329s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run CheckRoute Behavior [ RunTime:0.001941s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002157s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.001283s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run CheckTemplate Behavior [ RunTime:0.001014s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.002524s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | SQL: SHOW COLUMNS FROM `qilihai_introduction` [ RunTime:0.004868s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | SQL: SELECT * FROM `qilihai_introduction` WHERE id = 8 LIMIT 1   [ RunTime:0.001482s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | NOTIC: [8] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 0 of 3 bytes IntroductionAction.class.php 第 122 行.
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run LocationTemplate Behavior [ RunTime:0.002623s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.002745s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | NOTIC: [8] Undefined offset:  1 5c00709de38dc3dbdddd3f6c1445f51a.php 第 119 行.
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run ParseTemplate Behavior [ RunTime:0.131674s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.131806s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run ContentReplace Behavior [ RunTime:0.001375s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run TokenBuild Behavior [ RunTime:0.001310s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000631s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run ShowRuntime Behavior [ RunTime:0.001256s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.004985s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.004704s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/id/8 | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.004881s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run CheckRoute Behavior [ RunTime:0.000926s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001060s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000716s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000578s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001401s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | SQL: SHOW COLUMNS FROM `qilihai_introduction` [ RunTime:0.003100s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | NOTIC: [8] Undefined index:  id IntroductionAction.class.php 第 118 行.
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | SQL: SELECT * FROM `qilihai_introduction` WHERE id = 0 LIMIT 1   [ RunTime:0.000780s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run LocationTemplate Behavior [ RunTime:0.002103s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.002181s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | NOTIC: [8] Undefined offset:  1 5c00709de38dc3dbdddd3f6c1445f51a.php 第 119 行.
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run ParseTemplate Behavior [ RunTime:0.002766s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.002827s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run ContentReplace Behavior [ RunTime:0.000495s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run TokenBuild Behavior [ RunTime:0.000543s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000318s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000620s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002149s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.002370s ]
+[ 2012-06-04T14:00:58+08:00 ] /admin.php/Introduction/introModify/js/jquery-1.4.1.js | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.002457s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run CheckRoute Behavior [ RunTime:0.001750s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001910s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.001076s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000800s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.002024s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | SQL: SHOW COLUMNS FROM `qilihai_farmhouse` [ RunTime:0.016274s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | SQL: SELECT COUNT(*) AS tp_count FROM `qilihai_farmhouse` LIMIT 1   [ RunTime:0.000467s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | SQL: SELECT * FROM `qilihai_farmhouse` ORDER BY id LIMIT 0,20   [ RunTime:0.001504s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003301s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003403s ]
+[ 2012-06-04T14:01:01+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run ParseTemplate Behavior [ RunTime:0.042453s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.042578s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run ContentReplace Behavior [ RunTime:0.000661s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run TokenBuild Behavior [ RunTime:0.000776s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000432s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000715s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002824s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.002591s ]
+[ 2012-06-04T14:01:02+08:00 ] /admin.php/FarmHouse/farmList | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.002694s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ route_check ] --START--
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run CheckRoute Behavior [ RunTime:0.002315s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002498s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ app_begin ] --START--
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.000876s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run CheckTemplate Behavior [ RunTime:0.000720s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.001721s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_template ] --START--
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run LocationTemplate Behavior [ RunTime:0.002696s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.002784s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_parse ] --START--
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run ParseTemplate Behavior [ RunTime:0.021300s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.021421s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_filter ] --START--
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run ContentReplace Behavior [ RunTime:0.000739s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run TokenBuild Behavior [ RunTime:0.000679s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.000392s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run ShowRuntime Behavior [ RunTime:0.000629s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.002658s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_end ] --START--
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.003045s ]
+[ 2012-06-04T14:01:03+08:00 ] /admin.php/FarmHouse/farmAdd | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.003142s ]

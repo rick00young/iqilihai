@@ -1,0 +1,17 @@
+.table{
+        float:left;
+        padding-top:50px;
+        background-color:#ffffff
+        font-family:"隶书" Georgia, "Times New Roman", Times, serif;
+        font-size:15px;
+        font-weight:normal;
+}
+
+.table table{
+        padding:5px;
+        padding-top:5px;
+}
+
+.table tr,input{
+        padding:3px;
+}

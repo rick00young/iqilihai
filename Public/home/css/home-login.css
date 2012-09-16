@@ -1,0 +1,67 @@
+
+
+#login{
+    width:835px;
+    height:486px;
+    background:url(../images/loginbg.png) no-repeat;
+    margin:0 auto;
+}
+
+#login p{
+    padding-top:40px;
+    font-family:"微软雅黑";
+    color:#fff;
+    font-size:30px;
+}
+
+#login .registerTitle{
+    margin-left:40px;
+}
+
+#login .loginTitle{
+    margin-right:50px;
+    float:right; 
+}
+/**************************************************/
+#registerLink{
+    width:300px;
+    height:300px;
+    /*border:1px solid red;*/
+    margin-top:20px;
+    margin-left:92px;
+    float:left; 
+}
+
+.hitMe{
+    font-size:38px;
+     font-family:"微软雅黑";
+}
+
+.hitMe a{
+    color:#ffc216;
+}
+
+.hitMe a:hover{
+    color:#fff;
+}
+
+#loginBox{
+    width:316px;
+    height:272px;
+    /*border:1px solid #fff; */
+    float:right; 
+    margin-right:40px;
+    margin-top:20px;
+}
+
+#loginBox table{
+    color:#fff;
+    font-family:"微软雅黑";
+}
+
+#loginBox form table input{
+    height:30px;
+    width:200px;
+    height:25px\9;
+    padding-top:7px\9;
+}

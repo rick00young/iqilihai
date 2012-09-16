@@ -1,0 +1,200 @@
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002355s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002232s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.004764s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_template ] --START--
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003764s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003841s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_parse ] --START--
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run ParseTemplate Behavior [ RunTime:0.073318s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.073479s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_filter ] --START--
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run ContentReplace Behavior [ RunTime:0.004693s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run TokenBuild Behavior [ RunTime:0.003413s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.004775s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run ShowRuntime Behavior [ RunTime:0.005198s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.018506s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_end ] --START--
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.006362s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.006518s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T21:30:04+08:00 ] /admin.php/Index/verify/ | DEBUG: Run CheckRoute Behavior [ RunTime:0.001924s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002069s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T21:30:04+08:00 ] /admin.php/Index/verify/ | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002608s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php/Index/verify/ | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002642s ]
+[ 2012-04-19T21:30:04+08:00 ] /admin.php/Index/verify/ | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.005432s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run CheckRoute Behavior [ RunTime:0.001484s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001609s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002656s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002246s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.005016s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | SQL: SHOW COLUMNS FROM `qilihai_admin` [ RunTime:0.003109s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | SQL: SELECT * FROM `qilihai_admin` WHERE ( `username` = 'gg' ) AND ( `password` = '73c18c59a39b18382081ec00bb456d43' ) LIMIT 1   [ RunTime:0.000899s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | SQL: UPDATE `qilihai_admin` SET `last_login_time`=1334842213 WHERE ( `username` = 'gg' ) AND ( `password` = '73c18c59a39b18382081ec00bb456d43' ) [ RunTime:0.000375s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_template ] --START--
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003779s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003901s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_parse ] --START--
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | NOTIC: [8] Undefined variable: title fdb8b4c06fba2ac11ecc127c153c19ce.php 第 81 行.
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ParseTemplate Behavior [ RunTime:0.042322s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.042439s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_filter ] --START--
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ContentReplace Behavior [ RunTime:0.004852s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run TokenBuild Behavior [ RunTime:0.002890s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.004711s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ShowRuntime Behavior [ RunTime:0.005337s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.018183s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_end ] --START--
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.008322s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.008514s ]
+[ 2012-04-19T21:30:13+08:00 ] /admin.php/js/jquery-1.4.1.js | ERR: (ThinkException) 无法加载模块js
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run CheckRoute Behavior [ RunTime:0.001785s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001910s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002817s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002106s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.005032s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | SQL: SHOW COLUMNS FROM `qilihai_admin` [ RunTime:0.004021s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | SQL: SELECT * FROM `qilihai_admin` WHERE ( `username` = 'gg' ) AND ( `password` = '73c18c59a39b18382081ec00bb456d43' ) LIMIT 1   [ RunTime:0.001044s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | SQL: UPDATE `qilihai_admin` SET `last_login_time`=1334843304 WHERE ( `username` = 'gg' ) AND ( `password` = '73c18c59a39b18382081ec00bb456d43' ) [ RunTime:0.000331s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_template ] --START--
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003688s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003776s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_parse ] --START--
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | NOTIC: [8] Undefined variable: title fdb8b4c06fba2ac11ecc127c153c19ce.php 第 82 行.
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ParseTemplate Behavior [ RunTime:0.113041s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.113131s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_filter ] --START--
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ContentReplace Behavior [ RunTime:0.002469s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run TokenBuild Behavior [ RunTime:0.001544s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.002148s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ShowRuntime Behavior [ RunTime:0.002279s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.008641s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_end ] --START--
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.004498s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/Home/login.shtml | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.004625s ]
+[ 2012-04-19T21:48:24+08:00 ] /admin.php/js/jquery-1.4.1.js | ERR: (ThinkException) 无法加载模块js
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckRoute Behavior [ RunTime:0.002050s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002188s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002440s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002070s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.004617s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | SQL: SHOW COLUMNS FROM `qilihai_introduction` [ RunTime:0.004641s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | SQL: SELECT * FROM `qilihai_introduction`  [ RunTime:0.001285s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --START--
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003810s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003903s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --START--
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ParseTemplate Behavior [ RunTime:0.029777s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.029877s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --START--
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ContentReplace Behavior [ RunTime:0.002107s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run TokenBuild Behavior [ RunTime:0.001462s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.001933s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowRuntime Behavior [ RunTime:0.002105s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.007784s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --START--
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.003949s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.004027s ]
+[ 2012-04-19T21:48:30+08:00 ] /admin.php/js/jquery-1.4.1.js | ERR: (ThinkException) 无法加载模块js
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | ERR: (ThinkException) 非法操作annoList
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | DEBUG: Run CheckRoute Behavior [ RunTime:0.001767s ]
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001882s ]
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002691s ]
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002285s ]
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.005079s ]
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  file ThinkException.class.php 第 72 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  line ThinkException.class.php 第 73 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  file ThinkException.class.php 第 78 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  line ThinkException.class.php 第 78 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  file ThinkException.class.php 第 78 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  line ThinkException.class.php 第 78 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  class ThinkException.class.php 第 79 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  type ThinkException.class.php 第 79 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Array to string conversion ThinkException.class.php 第 80 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  class ThinkException.class.php 第 79 行.
+[ 2012-04-19T21:48:34+08:00 ] /admin.php/Announcement/annoList | NOTIC: [8] Undefined index:  type ThinkException.class.php 第 79 行.
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckRoute Behavior [ RunTime:0.001687s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.001808s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002203s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002075s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.004382s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | SQL: SHOW COLUMNS FROM `qilihai_introduction` [ RunTime:0.004118s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | SQL: SELECT * FROM `qilihai_introduction`  [ RunTime:0.001177s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --START--
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003768s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003844s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --START--
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ParseTemplate Behavior [ RunTime:0.004530s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.004608s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --START--
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ContentReplace Behavior [ RunTime:0.002091s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run TokenBuild Behavior [ RunTime:0.001334s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.002006s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowRuntime Behavior [ RunTime:0.002113s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.007724s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --START--
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.004074s ]
+[ 2012-04-19T22:21:43+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.004175s ]
+[ 2012-04-19T22:21:44+08:00 ] /admin.php/js/jquery-1.4.1.js | ERR: (ThinkException) 无法加载模块js
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckRoute Behavior [ RunTime:0.002673s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002804s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002236s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002102s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.004442s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | SQL: SHOW COLUMNS FROM `qilihai_introduction` [ RunTime:0.004412s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | SQL: SELECT * FROM `qilihai_introduction`  [ RunTime:0.001431s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003904s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003988s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ParseTemplate Behavior [ RunTime:0.003643s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.003711s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ContentReplace Behavior [ RunTime:0.002048s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run TokenBuild Behavior [ RunTime:0.001645s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.001972s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowRuntime Behavior [ RunTime:0.002143s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.007994s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.004200s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.004295s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/js/jquery-1.4.1.js | ERR: (ThinkException) 无法加载模块js
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckRoute Behavior [ RunTime:0.002752s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ route_check ] --END-- [ RunTime:0.002883s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ReadHtmlCache Behavior [ RunTime:0.002291s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run CheckTemplate Behavior [ RunTime:0.002546s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ app_begin ] --END-- [ RunTime:0.004954s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | SQL: SHOW COLUMNS FROM `qilihai_introduction` [ RunTime:0.003577s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | SQL: SELECT * FROM `qilihai_introduction`  [ RunTime:0.001502s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run LocationTemplate Behavior [ RunTime:0.003867s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_template ] --END-- [ RunTime:0.003946s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ParseTemplate Behavior [ RunTime:0.003736s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_parse ] --END-- [ RunTime:0.003828s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ContentReplace Behavior [ RunTime:0.002086s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run TokenBuild Behavior [ RunTime:0.000948s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run WriteHtmlCache Behavior [ RunTime:0.001958s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowRuntime Behavior [ RunTime:0.002196s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_filter ] --END-- [ RunTime:0.007378s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --START--
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Run ShowPageTrace Behavior [ RunTime:0.005194s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/Introduction/introList | DEBUG: Tag[ view_end ] --END-- [ RunTime:0.005279s ]
+[ 2012-04-19T23:02:24+08:00 ] /admin.php/js/jquery-1.4.1.js | ERR: (ThinkException) 无法加载模块js

@@ -1,0 +1,68 @@
+
+/********************上面的代码开始模块化使用******************************/
+
+#conRight{
+    width:715px;
+    /*border:1px solid red;*/
+    float:right; 
+    margin-right:58px;
+}
+
+#slide{
+    background-color:#fff;
+    width:100%;
+}
+
+#slideBox{
+    margin:0 auto;
+    width:693px;
+    height:384px;
+    overflow:hidden;
+    padding-top:10px;
+}
+
+#slideBelow{
+    width:715px;
+    height:174px;
+    margin-top:20px;
+}
+#below1{
+    width:484px;
+     background-color:#fff;
+     height:168px;
+     padding-bottom:5px;
+     float:left; 
+}
+#belowImg1{
+    padding-top:5px;
+    padding-left:5px;
+    width:200px;
+    height:160px;
+    overflow:hidden;
+    float:left; 
+}
+
+#belowImg1Title{
+    font-size:18px;
+}
+
+#belowImg1Con{
+    font-size:15px;
+    padding-top:6px;
+}
+
+#below2{
+    width:216px;
+    height:172px;
+    /*border:1px solid green;*/
+    float:right; 
+    background-color:#fff;
+}
+
+#below2Img{
+     width:200px;
+     height:160px;
+     overflow:hidden;
+     margin:0 auto;
+     padding-top:7px;
+}

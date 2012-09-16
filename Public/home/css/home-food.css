@@ -1,0 +1,88 @@
+#conRight_food{
+    border:1px solid red;
+    width:760px;
+    height:300px;
+    float:right; 
+    margin-right:25px;
+}
+
+.foodDiv{
+    background-color:#f0f22f;
+    height:344px;
+}
+
+#foodDivLeft{
+    width:509px;
+    height:334px;
+    margin-top:5px;
+    margin-left:5px;
+    float:left; 
+    position:relative; 
+    overflow:hidden;
+}
+
+#foodPos{
+    width:509px;
+    height:20px;
+    position:absolute; 
+    background-color:#000;
+    left:0px;
+    bottom:0px;
+}
+
+#foodDivRight{
+    float:right; 
+    /*border:1px solid #fff;*/
+    height:344px;
+    width:234px;
+    color:#fff;
+}
+
+#foodDivRight p{
+    text-align:center;
+    font-size:22px;
+    padding-top:10px;
+}
+
+#foodCon{
+    padding:10px;
+    padding-left:15px;
+    padding-right:25px;
+    font-size:16px;
+}
+
+#foodList{
+    width:100%;
+    margin-top:20px;
+    background-color:#f0f22f;
+    height:192px;
+}
+
+.foodListTitle{
+    padding:5px;
+    text-indent:14px;
+    background-color:#d4d62b;
+    color:#fff;
+}
+
+.foodSmDiv{
+    width:160px;
+    overflow:hidden;
+    border:solid 1px red;
+    float:left; 
+    margin-left:14px;
+    margin-right:14px;
+}
+.foodImgBorder{
+    border:solid 4px #fff;
+}
+
+.foodSmDiv p{
+    text-align:center;
+    padding-top:8px;
+    font-size:14px;
+    background-color:#f0f22f;
+}
+.foodSmDiv p a{
+    color:#fff;
+}

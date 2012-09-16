@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/home/css/global.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/bannerAndNav.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-intro.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-ecology.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/home-footer.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery-1.7.2.min.js"></script>
+<link href="__PUBLIC__/home/css/coin-slider-styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/home/js/coin-slider.min.js"></script>
+<title>天津七里海旅游网站</title>
+
+</head>
+
+<body>
+	<div id="container">
+		<!--the banner goes here-->
+		<include file="HTML:banner" />
+		<div class="clear"> </div>
+		<!--the banner ends here-->
+		<div id="content">
+			<div id="conLeft">
+				<include file="HTML:ecoNav" />
+			<!--
+				<div id="childrenNav">
+					<ul>
+						<li><a href="#">七里海简介</a></li>
+						<li><a href="#">美丽传说</a></li>
+						<li><a href="#">鸟的天堂</a></li>
+						<li><a href="#">自然天成</a></li>
+						<li><a href="#">人杰地灵</a></li>
+					</ul>
+				</div>
+			-->
+			</div>
+			<!--the conRight goes here-->
+			<div id="conRight">
+				<div id="slide">
+					<div id="slideBox">
+					
+						<div id="coin-slider">
+							<a href="#" title="">
+								<img src="__PUBLIC__/home/images/eco/guhaian1.JPG" width="693px" height="384px" alt="" />
+								<span>位于西七里海，占地一万亩。2009年初兴建，开挖疏浚一环、三纵、一横、107条水沟。开辟500亩水面，建岛屿两个，浅滩八处。乘船在绿苇掩映的沟渠中穿行，管无边苇荡，赏群群飞鸟，看鱼跃蟹行，  别有一番情趣。</span>
+							</a>
+							<a href="#" title="">
+								<img src="__PUBLIC__/home/images/eco/guhaian2.JPG"alt="" />
+								<span>位于西七里海，占地一万亩。2009年初兴建，开挖疏浚一环、三纵、一横、107条水沟。开辟500亩水面，建岛屿两个，浅滩八处。乘船在绿苇掩映的沟渠中穿行，管无边苇荡，赏群群飞鸟，看鱼跃蟹行，  别有一番情趣。</span>
+							</a>
+							<a href="#" title="">
+								<img src="__PUBLIC__/home/images/eco/guhaian3.JPG"alt="" />
+								<span>位于西七里海，占地一万亩。2009年初兴建，开挖疏浚一环、三纵、一横、107条水沟。开辟500亩水面，建岛屿两个，浅滩八处。乘船在绿苇掩映的沟渠中穿行，管无边苇荡，赏群群飞鸟，看鱼跃蟹行，  别有一番情趣。</span>
+							</a>
+						</div>
+				
+					</div>
+				</div>
+				<div id="slideBelow">
+					<div id="below1">
+							<table>
+								<tr>
+									<td><div id="belowImg1"><a href="__APP__/Ecology/dear"><img src="__PUBLIC__/home/images/eco/milu1--.jpg" width="200px" height="160px" alt="" /></a></div></td>
+									<td style="vertical-align:top;padding-top:15px;padding-left:3px;padding-right:5px;overflow:hidden;">
+										<div >
+												<p id="belowImg1Title">麋鹿院</p>
+												<p id="belowImg1Con">位于星海湖鸟类保护区西侧，占地150亩，建岛屿，浅滩，养苇，种草木。从北京麋鹿苑引进
+
+麋鹿，在自然环境下放养繁殖。供观赏和研究。</p>
+										</div>
+									</td>
+								</tr>
+							</table>
+					</div>
+					<div id="below2">
+						<div id="below2Img"><a href="__APP__/Ecology/wetLand"><img  src="__PUBLIC__/home/images/eco/shidizoulang3--.jpg" width="200" height="160" alt="" /></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--the footer goes here-->
+		<div class="clear"> </div>
+		<include file="HTML:footer" />
+		<!--the footer ends here-->
+	</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	//alert("pp");
+	$('#coin-slider').coinslider({width: 693,height: 354, hoverPause: true});
+});
+</script>
+</body>
+</html>

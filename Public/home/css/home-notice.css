@@ -1,0 +1,92 @@
+#introLeft,#introRight{
+    width:470px;
+    height:492px;
+    padding-bottom:15px;
+    border:1px solid black;
+    float:left; 
+    background-color:#f2f2f2;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+#introLeft{
+    margin-left:25px;
+}
+#introRight{
+    float:right; 
+    margin-right:25px;
+}
+
+.noticeTitle{
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    line-height:22px;
+    font-size:22px;
+    color:#000;
+}
+
+.introPic{
+    margin:0 auto;
+    padding-top:15px;
+    margin-bottom:15px;
+    width:415px;
+    height:222px;
+    /*border:1px solid red;*/
+    overflow:hidden;
+}
+
+.introList{
+    width:415px;
+    margin:0 auto;
+    padding-bottom:15px;
+}
+
+.introList p{
+    border-bottom:solid 1px #ccc;
+    padding-bottom:5px;
+}
+.newsLink{
+    color:#000;
+    font-size:15px;
+    cursor: pointer;
+}
+.introList p a:hover{
+    color:#555;
+}
+.introList .noticeTime{
+    float:right;
+    font-size:15px;
+}
+
+.closeNews{
+    font-size:20px;
+    cursor: pointer;
+    float:right; 
+    padding-right:10px;
+}
+
+.newsTitle{
+    color: #000000;
+    font-size: 22px;
+    line-height: 22px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom:1px solid #ccc;
+}
+
+.newsInfo{
+    text-align:right;
+    padding-right:20px;
+    font-size:16px;
+}
+.newsInfo p{
+    text-align:right;
+    padding-right:20px;
+    font-size:16px;
+}
+.newsDes{
+    padding:20px;
+    text-indent:20px;
+    font-size:16px;
+}
